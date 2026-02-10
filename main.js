@@ -1,5 +1,7 @@
-function CircleArea() {
-    var radius = document.getElementById("radius").value;
-    var area = Math.PI * radius * radius();
-    document.getElementById("answer").area.toFixed(2);
+function multiply(){
+    let pi = Math.PI;
+    let rad = document.getElementById("rad").value;
+    let r = rad ** 2;
+    let ans = Number(pi) * Number(r);
+    document.getElementById("area").innerHTML = "Area: " + ans;
 }
